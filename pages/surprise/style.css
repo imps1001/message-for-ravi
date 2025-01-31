@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: url('../../images/surprise-bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.surprise-container {
+    text-align: center;
+    color: #000;
+    padding: 30px;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 800px;
+    position: relative;
+    font-weight: 700;
+}
+
+.surprise-container h1 {
+    margin-bottom: 20px;
+}
+
+.media {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+video, audio {
+    margin: 10px 0;
+    width: 100%;
+    max-width: 600px;
+    border: 2px solid #fff;
+    border-radius: 10px;
+}
